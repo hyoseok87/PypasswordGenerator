@@ -25,4 +25,5 @@ for number in range(nr_numbers):
     password_numbers += random.choice(numbers)
 
 
-print(password_letters + password_symbols + password_numbers)
+password = password_letters + password_symbols + password_numbers
+print(''.join(random.sample(password, k=len(password)))) # ''.join을 통해 리스트의 값을 str으로 변환
