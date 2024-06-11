@@ -27,4 +27,3 @@ for number in range(nr_numbers):
 
 
 print(password_letters + password_symbols + password_numbers)
-
