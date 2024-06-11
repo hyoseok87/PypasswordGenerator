@@ -25,5 +25,4 @@ for symbol in range(nr_symbols):
 for number in range(nr_numbers):
     password_numbers += random.choice(numbers)
 
-
 print(password_letters + password_symbols + password_numbers)
